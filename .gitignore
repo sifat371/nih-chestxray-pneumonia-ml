@@ -1,0 +1,286 @@
+# ---------------------------------------------------------------------
+# General
+# ---------------------------------------------------------------------
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+
+# Virtual envs
+venv/
+.env/
+.env.*            # any env files
+.venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs and reports
+*.log
+logs/
+coverage/
+htmlcov/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------------------------------------------------
+# Secrets / Credentials (protect anything that may contain tokens)
+# ---------------------------------------------------------------------
+# dotenv and local env files
+.env
+.env.local
+.env.*.local
+
+# Git/GitHub credentials
+.git-credentials
+.github/.env
+.github_token
+
+# SSH / keys
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.asc
+ssh-keys/
+
+# Cloud provider credentials
+.aws/
+.aws/credentials
+.gcloud/
+GOOGLE_APPLICATION_CREDENTIALS
+azure_credentials.json
+
+# Hugging Face / model token caches
+.huggingface/
+.hf/
+cache/huggingface/
+.cache/huggingface/
+huggingface_token
+hf_*
+
+# Any files likely to contain API keys
+secrets.*
+secret.*
+credentials.*
+
+# ---------------------------------------------------------------------
+# Data, models, checkpoints, large files (do not commit large artifacts)
+# ---------------------------------------------------------------------
+# datasets & raw data
+/data/
+data/
+raw_data/
+datasets/
+*/datasets/
+*/data/
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+*.tfrecord
+*.h5
+*.hdf5
+
+# model checkpoints & weights
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# results & artifacts (optional: keep if you want versioned results)
+results/
+outputs/
+predictions/
+
+# ---------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------
+# caches
+.cache/
+tmp/
+temp/
+*.tmp
+
+# keep local dependency/build files out
+*.log
+*.pid
+*.seed
+
+# End of file
+```// filepath: /home/motion/ExTra/nih-chestxray-pneumonia-ml/.gitignore
+# ---------------------------------------------------------------------
+# General
+# ---------------------------------------------------------------------
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+
+# Virtual envs
+venv/
+.env/
+.env.*            # any env files
+.venv/
+env/
+ENV/
+.conda/
+conda-env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs and reports
+*.log
+logs/
+coverage/
+htmlcov/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------------------------------------------------
+# Secrets / Credentials (protect anything that may contain tokens)
+# ---------------------------------------------------------------------
+# dotenv and local env files
+.env
+.env.local
+.env.*.local
+
+# Git/GitHub credentials
+.git-credentials
+.github/.env
+.github_token
+
+# SSH / keys
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.asc
+ssh-keys/
+
+# Cloud provider credentials
+.aws/
+.aws/credentials
+.gcloud/
+GOOGLE_APPLICATION_CREDENTIALS
+azure_credentials.json
+
+# Hugging Face / model token caches
+.huggingface/
+.hf/
+cache/huggingface/
+.cache/huggingface/
+huggingface_token
+hf_*
+
+# Any files likely to contain API keys
+secrets.*
+secret.*
+credentials.*
+
+# ---------------------------------------------------------------------
+# Data, models, checkpoints, large files (do not commit large artifacts)
+# ---------------------------------------------------------------------
+# datasets & raw data
+/data/
+data/
+raw_data/
+datasets/
+*/datasets/
+*/data/
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+*.tfrecord
+*.h5
+*.hdf5
+
+# model checkpoints & weights
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# results & artifacts (optional: keep if you want versioned results)
+results/
+outputs/
+predictions/
+
+# ---------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------
+# caches
+.cache/
+tmp/
+temp/
+*.tmp
+
+# keep local dependency/build files out
+*.log
+*.pid
+*.seed
+
+# End of file
